@@ -1,14 +1,12 @@
 import datetime
-import os
-import re
 import time
 import subprocess
 from textwrap import dedent
 import requests
 from threading import Timer
-import datetime
 import calendar
 from kavenegar import *
+
 
 api = KavenegarAPI('49396E332B65484C53354947654B6854467A595063462F42426D352B766365495569616D35452F464B2F453D' , timeout=20)
 
